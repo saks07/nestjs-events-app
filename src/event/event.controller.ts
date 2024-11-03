@@ -14,7 +14,7 @@ import { EventEntity } from './entities/event.entity';
 import { EventResponse } from './interfaces/event.interface';
 import { HttpStatusCode } from 'axios';
 
-@Controller('events') //route group
+@Controller('events')
 export class EventController {
   constructor(private readonly eventService: EventService) {}
 
